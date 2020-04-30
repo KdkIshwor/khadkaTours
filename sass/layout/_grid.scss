@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: rgba(0, 0, 51, 0.13);
     margin: 0 auto;
     
 
@@ -13,7 +12,6 @@
     /* selecting all the element that start with col- ^ for starting $ for end and * for inbetween */
 
     [class^="col-"] {
-        background-color: orange;
         float: left;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
